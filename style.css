@@ -1,27 +1,31 @@
-#content-wrapper {
+#content {
+    margin-right: auto;
+    margin-left: auto;
     max-width: 960px;
-    margin: 0 auto;
-
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(dark-honeycomb.png);
+    
 }
 
 #sidebar {
     width: 33%;
     display: inline-block;
-    background-color: teal;
+    background-color: #4aaaa5;
     box-sizing: border-box;
     border: solid;
     border-color: black;
     padding-left: 10px;
-    position: sticky
-}
-
-#main {
-    width: 66%;
-    display: inline-block;
 
 }
-body {
-    background-color: whitesmoke;
+
+#text_box {
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    background-color: #ffffff;
     
 }
 
