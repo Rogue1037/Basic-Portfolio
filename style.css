@@ -1,3 +1,25 @@
+#content-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+#sidebar {
+    width: 33%;
+    display: inline-block;
+    background-color: teal;
+    box-sizing: border-box;
+    border: solid;
+    border-color: black;
+    padding-left: 10px;
+    position: sticky
+}
+
+#main {
+    width: 66%;
+    display: inline-block;
+
+}
 body {
     background-color: whitesmoke;
     
@@ -5,29 +27,12 @@ body {
 
 P {
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
 img {
 
     float: left;
+    padding: 10px;
 
-}
-
-.box {
-    
-    background-color: teal;
-    box-sizing: border-box;
-    border: solid;
-    border-color: black;
-    width: 280px;
-    height: 75px;
-    padding-left: 10px;
-    position: sticky;
-
-}
-
-.header2 {
-
-    
 }
